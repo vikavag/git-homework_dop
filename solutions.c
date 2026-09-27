@@ -1,7 +1,18 @@
+#include <stdio.h>
+
+// task 1, pies
+
 int pies_kopecks(int a, int b, int n) {
     int price = a * 100 + b;
     int total = price * n;
     return total % 100;
+}
+
+// task 3, meters
+
+int meters_to_km(int m) {
+    return m / 1000;
+}
 
 
 // task 2 , apples
