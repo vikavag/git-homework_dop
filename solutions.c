@@ -46,3 +46,9 @@ const char* day_of_week(int day_num) {
 int count_digits(int n) {
     return 0;
 }
+
+// task 2 , apples
+
+int apples(int n, int k) {
+    return k % n;
+}
